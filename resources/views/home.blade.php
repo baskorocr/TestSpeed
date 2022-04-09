@@ -95,7 +95,7 @@
     <div class="row justify-content-center">
        <div class="col-lg-6">
           <div class="main">
-             <h3><a>Laravel 8 Review Rating System.</a></h3>
+             <h3><a>Kirim Ulasan mu, sekarang juga!</a></h3>
              <form role="form" action="{{route('post.store')}}" method="post">
                 @csrf
                 <div class="form-group">
