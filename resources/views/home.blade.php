@@ -97,7 +97,7 @@
           <div class="main">
              <h3><a>Kirim Ulasan mu, sekarang juga!</a></h3>
              <form role="form" action="{{route('post.store')}}" method="post">
-                @csrf
+              {{csrf_field}}
                 <div class="form-group">
                    <label for="title">Post Title<span class="text-danger">*</span></label>
                    <input type="text" name="title" class="form-control" required>
