@@ -168,7 +168,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE',false),
+    'secure' => env('SESSION_SECURE_COOKIE',),
 
     /*
     |--------------------------------------------------------------------------
@@ -197,5 +197,6 @@ return [
     */
 
     'same_site' => 'lax',
+    'domain' => env('SESSION_DOMAIN', 'http://gotestspeed.herokuapp.com/'),
 
 ];

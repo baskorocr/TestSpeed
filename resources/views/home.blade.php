@@ -96,7 +96,7 @@
        <div class="col-lg-6">
           <div class="main">
              <h3><a>Kirim Ulasan mu, sekarang juga!</a></h3>
-             <form role="form" action="{{url('post-store')}}" method="post">
+             <form  action="{{url('post-store')}}" method="post">
                 @csrf
                 <div class="form-group">
                    <label for="title">Post Title<span class="text-danger">*</span></label>
